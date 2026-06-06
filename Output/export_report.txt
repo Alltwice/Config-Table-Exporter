@@ -1,0 +1,147 @@
+========================================
+             导出结果汇总
+========================================
+
+导出状态：部分成功
+
+输入目录：./Tables
+JSON 输出目录：./Output/Json
+C# 输出目录：./Output/CSharp
+ConfigManager 输出路径：./Output/CSharp/ConfigManager.cs
+导出报告路径：./Output/export_report.txt
+
+----------------------------------------
+处理统计
+----------------------------------------
+扫描到的文件数量：22
+成功导出的表数量：1
+失败的表数量：18
+被忽略的表数量：1
+不支持的文件数量：2
+
+----------------------------------------
+成功导出的表
+----------------------------------------
+[OK] valid_skill.csv
+     表名：valid_skill
+     有效字段数：8
+     忽略字段数：1
+     数据行数：2
+     生成 JSON：./Output/Json/ValidSkillConfig.json
+     生成 C#：./Output/CSharp/ValidSkillConfig.cs
+
+
+----------------------------------------
+失败的表
+----------------------------------------
+[Error] err_01_less_than_3_headers.csv
+        错误数量：1
+        表格至少需要 3 行表头：字段名、字段类型、字段说明
+
+[Error] err_02_header_count_mismatch.csv
+        错误数量：1
+        第 2 行 字段名数量和字段类型数量必须一致
+
+[Error] err_03_empty_field_name.csv
+        错误数量：2
+        第 1 行 字段名不能为空
+        第 1 行 字段名必须是合法 C# 标识符
+
+[Error] err_04_empty_field_type.csv
+        错误数量：2
+        第 2 行 score 字段类型不能为空
+        第 2 行 score 字段 不支持的字段类型：
+
+[Error] err_05_unsupported_type.csv
+        错误数量：1
+        第 2 行 power 字段 不支持的字段类型：decimal
+
+[Error] err_06_invalid_identifier.csv
+        错误数量：1
+        第 1 行 2name 字段名必须是合法 C# 标识符
+
+[Error] err_07_duplicate_field_name.csv
+        错误数量：1
+        第 1 行 name 字段 有效字段名重复
+
+[Error] err_08_no_exportable_fields.csv
+        错误数量：1
+        第 1 行 没有可导出的有效字段
+
+[Error] err_09_first_field_not_id.csv
+        错误数量：1
+        第 1 行 name 字段 第一列有效字段必须为 id
+
+[Error] err_10_id_not_int.csv
+        错误数量：1
+        第 2 行 id 字段类型必须为 int
+
+[Error] err_11_row_column_count_less.csv
+        错误数量：1
+        第 4 行 数据列数量必须和原始字段名数量一致，期望 3 列，实际 2 列
+
+[Error] err_12_row_column_count_more.csv
+        错误数量：1
+        第 4 行 数据列数量必须和原始字段名数量一致，期望 2 列，实际 3 列
+
+[Error] err_13_empty_id.csv
+        错误数量：1
+        第 4 行 id 不能为空
+
+[Error] err_14_duplicate_id.csv
+        错误数量：1
+        第 5 行 id 不能重复：1
+
+[Error] err_15_scalar_type_values.csv
+        错误数量：7
+        第 4 行 intValue 字段应为 int，实际为 not_int
+        第 4 行 longValue 字段应为 long，实际为 not_long
+        第 4 行 shortValue 字段应为 short，实际为 40000
+        第 4 行 byteValue 字段应为 byte(0-255)，实际为 300
+        第 4 行 floatValue 字段应为 float，实际为 not_float
+        第 4 行 doubleValue 字段应为 double，实际为 not_double
+        第 4 行 boolValue 字段应为 bool(true/false/1/0)，实际为 maybe
+
+[Error] err_16_vector_values.csv
+        错误数量：3
+        第 4 行 pos2 字段应为 Vector2，需要 2 个数字分量，实际为 1|2|3
+        第 4 行 pos3 字段应为 Vector3，分量应为数字，实际为 bad
+        第 4 行 dir2 字段应为 Vector2，分量应为数字，实际为 bad
+
+[Error] err_17_array_values.csv
+        错误数量：4
+        第 4 行 ints 字段 数组元素应为 int，实际为 x
+        第 4 行 bytes 字段 数组元素应为 byte(0-255)，实际为 999
+        第 4 行 floats 字段 数组元素应为 float，实际为 bad
+        第 4 行 bools 字段 数组元素应为 bool(true/false/1/0)，实际为 maybe
+
+[Error] err_18_vector_array_values.csv
+        错误数量：2
+        第 4 行 path2 字段应为 Vector2[]，分量应为数字，实际为 bad
+        第 4 行 path3 字段应为 Vector3[]，需要 3 个数字分量，实际为 1|1
+
+
+----------------------------------------
+被忽略的表
+----------------------------------------
+[Skip] #skip_table.csv
+       原因：文件名以 # 开头
+
+
+----------------------------------------
+不支持的文件
+----------------------------------------
+[Unsupported] legacy_excel.xls
+              原因：旧版二进制 .xls 当前未接入第三方库，暂不支持；建议另存为 .xlsx 或按 README 接入 libxls/libxlsxio
+
+[Unsupported] unsupported_format.md
+              原因：当前版本不支持 .md 文件
+
+
+----------------------------------------
+最终生成文件
+----------------------------------------
+JSON 文件数量：1
+C# 配置类数量：1
+ConfigManager：已生成
+导出报告：已生成

@@ -1,0 +1,4 @@
+id,pos2,pos3,dir2
+int,Vector2,Vector3,Vector2
+ID,Position2,Position3,Direction2
+1,1|2|3,1|bad|3,bad|2

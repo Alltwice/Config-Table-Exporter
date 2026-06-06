@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\OtherProject\Config-Table-Exporter\GameConfigExporter\src\CSharpExporter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\OtherProject\Config-Table-Exporter\GameConfigExporter\src\ConfigManagerExporter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\OtherProject\Config-Table-Exporter\GameConfigExporter\src\ConsoleOptions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\OtherProject\Config-Table-Exporter\GameConfigExporter\src\CsvReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\OtherProject\Config-Table-Exporter\GameConfigExporter\src\EncodingUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\OtherProject\Config-Table-Exporter\GameConfigExporter\src\ExcelReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\OtherProject\Config-Table-Exporter\GameConfigExporter\src\ExportSummary.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\OtherProject\Config-Table-Exporter\GameConfigExporter\src\JsonExporter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\OtherProject\Config-Table-Exporter\GameConfigExporter\src\Logger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\OtherProject\Config-Table-Exporter\GameConfigExporter\src\ReportGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\OtherProject\Config-Table-Exporter\GameConfigExporter\src\StringUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\OtherProject\Config-Table-Exporter\GameConfigExporter\src\TableData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\OtherProject\Config-Table-Exporter\GameConfigExporter\src\TableReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\OtherProject\Config-Table-Exporter\GameConfigExporter\src\Validator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\OtherProject\Config-Table-Exporter\GameConfigExporter\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\OtherProject\Config-Table-Exporter\GameConfigExporter\src\CSharpExporter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\OtherProject\Config-Table-Exporter\GameConfigExporter\src\ConfigManagerExporter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\OtherProject\Config-Table-Exporter\GameConfigExporter\src\ConsoleOptions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\OtherProject\Config-Table-Exporter\GameConfigExporter\src\CsvReader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\OtherProject\Config-Table-Exporter\GameConfigExporter\src\EncodingUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\OtherProject\Config-Table-Exporter\GameConfigExporter\src\ExcelReader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\OtherProject\Config-Table-Exporter\GameConfigExporter\src\ExportSummary.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\OtherProject\Config-Table-Exporter\GameConfigExporter\src\JsonExporter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\OtherProject\Config-Table-Exporter\GameConfigExporter\src\Logger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\OtherProject\Config-Table-Exporter\GameConfigExporter\src\ReportGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\OtherProject\Config-Table-Exporter\GameConfigExporter\src\StringUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\OtherProject\Config-Table-Exporter\GameConfigExporter\src\TableData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\OtherProject\Config-Table-Exporter\GameConfigExporter\src\TableReader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\OtherProject\Config-Table-Exporter\GameConfigExporter\src\Validator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\OtherProject\Config-Table-Exporter\GameConfigExporter\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{43EB5251-AC95-3B7B-9DAA-DC27B978916E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{B9592B64-EB71-39FA-84ED-AFDDFDE81A90}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

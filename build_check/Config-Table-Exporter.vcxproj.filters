@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\OtherProject\Config-Table-Exporter\Config-Table-Exporter\src\CSharpExporter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\OtherProject\Config-Table-Exporter\Config-Table-Exporter\src\ConfigManagerExporter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\OtherProject\Config-Table-Exporter\Config-Table-Exporter\src\ConsoleOptions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\OtherProject\Config-Table-Exporter\Config-Table-Exporter\src\CsvReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\OtherProject\Config-Table-Exporter\Config-Table-Exporter\src\EncodingUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\OtherProject\Config-Table-Exporter\Config-Table-Exporter\src\ExcelReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\OtherProject\Config-Table-Exporter\Config-Table-Exporter\src\ExportSummary.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\OtherProject\Config-Table-Exporter\Config-Table-Exporter\src\JsonExporter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\OtherProject\Config-Table-Exporter\Config-Table-Exporter\src\Logger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\OtherProject\Config-Table-Exporter\Config-Table-Exporter\src\ReportGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\OtherProject\Config-Table-Exporter\Config-Table-Exporter\src\StringUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\OtherProject\Config-Table-Exporter\Config-Table-Exporter\src\TableData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\OtherProject\Config-Table-Exporter\Config-Table-Exporter\src\TableReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\OtherProject\Config-Table-Exporter\Config-Table-Exporter\src\Validator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\OtherProject\Config-Table-Exporter\Config-Table-Exporter\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\OtherProject\Config-Table-Exporter\Config-Table-Exporter\src\CSharpExporter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\OtherProject\Config-Table-Exporter\Config-Table-Exporter\src\ConfigManagerExporter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\OtherProject\Config-Table-Exporter\Config-Table-Exporter\src\ConsoleOptions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\OtherProject\Config-Table-Exporter\Config-Table-Exporter\src\CsvReader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\OtherProject\Config-Table-Exporter\Config-Table-Exporter\src\EncodingUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\OtherProject\Config-Table-Exporter\Config-Table-Exporter\src\ExcelReader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\OtherProject\Config-Table-Exporter\Config-Table-Exporter\src\ExportSummary.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\OtherProject\Config-Table-Exporter\Config-Table-Exporter\src\JsonExporter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\OtherProject\Config-Table-Exporter\Config-Table-Exporter\src\Logger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\OtherProject\Config-Table-Exporter\Config-Table-Exporter\src\ReportGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\OtherProject\Config-Table-Exporter\Config-Table-Exporter\src\StringUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\OtherProject\Config-Table-Exporter\Config-Table-Exporter\src\TableData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\OtherProject\Config-Table-Exporter\Config-Table-Exporter\src\TableReader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\OtherProject\Config-Table-Exporter\Config-Table-Exporter\src\Validator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\OtherProject\Config-Table-Exporter\Config-Table-Exporter\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{F9D40E59-97ED-3FCE-BF37-48F102E3DCAA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{32A10FD6-71C5-3D3F-91D4-A605F04C8651}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

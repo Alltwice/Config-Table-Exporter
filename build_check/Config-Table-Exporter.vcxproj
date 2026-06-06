@@ -1,0 +1,417 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{23C620FC-30A0-39F5-9A45-A88099CCB8D7}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>Config-Table-Exporter</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\OtherProject\Config-Table-Exporter\Config-Table-Exporter\build_check\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Config-Table-Exporter.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Config-Table-Exporter</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\OtherProject\Config-Table-Exporter\Config-Table-Exporter\build_check\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Config-Table-Exporter.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Config-Table-Exporter</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\OtherProject\Config-Table-Exporter\Config-Table-Exporter\build_check\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Config-Table-Exporter.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Config-Table-Exporter</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\OtherProject\Config-Table-Exporter\Config-Table-Exporter\build_check\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Config-Table-Exporter.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Config-Table-Exporter</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\OtherProject\Config-Table-Exporter\Config-Table-Exporter\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\OtherProject\Config-Table-Exporter\Config-Table-Exporter\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\OtherProject\Config-Table-Exporter\Config-Table-Exporter\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>D:/OtherProject/Config-Table-Exporter/Config-Table-Exporter/build_check/Debug/Config-Table-Exporter.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>D:/OtherProject/Config-Table-Exporter/Config-Table-Exporter/build_check/Debug/Config-Table-Exporter.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\OtherProject\Config-Table-Exporter\Config-Table-Exporter\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\OtherProject\Config-Table-Exporter\Config-Table-Exporter\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\OtherProject\Config-Table-Exporter\Config-Table-Exporter\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>D:/OtherProject/Config-Table-Exporter/Config-Table-Exporter/build_check/Release/Config-Table-Exporter.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>D:/OtherProject/Config-Table-Exporter/Config-Table-Exporter/build_check/Release/Config-Table-Exporter.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\OtherProject\Config-Table-Exporter\Config-Table-Exporter\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\OtherProject\Config-Table-Exporter\Config-Table-Exporter\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\OtherProject\Config-Table-Exporter\Config-Table-Exporter\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>D:/OtherProject/Config-Table-Exporter/Config-Table-Exporter/build_check/MinSizeRel/Config-Table-Exporter.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>D:/OtherProject/Config-Table-Exporter/Config-Table-Exporter/build_check/MinSizeRel/Config-Table-Exporter.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\OtherProject\Config-Table-Exporter\Config-Table-Exporter\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\OtherProject\Config-Table-Exporter\Config-Table-Exporter\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\OtherProject\Config-Table-Exporter\Config-Table-Exporter\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>D:/OtherProject/Config-Table-Exporter/Config-Table-Exporter/build_check/RelWithDebInfo/Config-Table-Exporter.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>D:/OtherProject/Config-Table-Exporter/Config-Table-Exporter/build_check/RelWithDebInfo/Config-Table-Exporter.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\OtherProject\Config-Table-Exporter\Config-Table-Exporter\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/OtherProject/Config-Table-Exporter/Config-Table-Exporter/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\Program\CMake\bin\cmake.exe -SD:/OtherProject/Config-Table-Exporter/Config-Table-Exporter -BD:/OtherProject/Config-Table-Exporter/Config-Table-Exporter/build_check --check-stamp-file D:/OtherProject/Config-Table-Exporter/Config-Table-Exporter/build_check/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\OtherProject\Config-Table-Exporter\Config-Table-Exporter\build_check\CMakeFiles\4.3.3\CMakeCXXCompiler.cmake;D:\OtherProject\Config-Table-Exporter\Config-Table-Exporter\build_check\CMakeFiles\4.3.3\CMakeRCCompiler.cmake;D:\OtherProject\Config-Table-Exporter\Config-Table-Exporter\build_check\CMakeFiles\4.3.3\CMakeSystem.cmake;D:\OtherProject\Config-Table-Exporter\Config-Table-Exporter\build_check\CMakeFiles\cmake.verify_globs;D:\Program\CMake\share\cmake-4.3\Modules\CMakeCXXCompiler.cmake.in;D:\Program\CMake\share\cmake-4.3\Modules\CMakeCXXCompilerABI.cpp;D:\Program\CMake\share\cmake-4.3\Modules\CMakeCXXInformation.cmake;D:\Program\CMake\share\cmake-4.3\Modules\CMakeCommonLanguageInclude.cmake;D:\Program\CMake\share\cmake-4.3\Modules\CMakeCompilerIdDetection.cmake;D:\Program\CMake\share\cmake-4.3\Modules\CMakeDetermineCXXCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\CMakeDetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\CMakeDetermineCompilerABI.cmake;D:\Program\CMake\share\cmake-4.3\Modules\CMakeDetermineCompilerId.cmake;D:\Program\CMake\share\cmake-4.3\Modules\CMakeDetermineCompilerSupport.cmake;D:\Program\CMake\share\cmake-4.3\Modules\CMakeDetermineRCCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\CMakeDetermineSystem.cmake;D:\Program\CMake\share\cmake-4.3\Modules\CMakeFindBinUtils.cmake;D:\Program\CMake\share\cmake-4.3\Modules\CMakeGenericSystem.cmake;D:\Program\CMake\share\cmake-4.3\Modules\CMakeInitializeConfigs.cmake;D:\Program\CMake\share\cmake-4.3\Modules\CMakeLanguageInformation.cmake;D:\Program\CMake\share\cmake-4.3\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\Program\CMake\share\cmake-4.3\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Program\CMake\share\cmake-4.3\Modules\CMakeParseLibraryArchitecture.cmake;D:\Program\CMake\share\cmake-4.3\Modules\CMakeRCCompiler.cmake.in;D:\Program\CMake\share\cmake-4.3\Modules\CMakeRCInformation.cmake;D:\Program\CMake\share\cmake-4.3\Modules\CMakeSystem.cmake.in;D:\Program\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInformation.cmake;D:\Program\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program\CMake\share\cmake-4.3\Modules\CMakeTestCXXCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\CMakeTestCompilerCommon.cmake;D:\Program\CMake\share\cmake-4.3\Modules\CMakeTestRCCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\CrayClang-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\Diab-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\MSVC-CXX.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\MSVC.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\NVHPC-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\OrangeC-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\Renesas-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\TI-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\TIClang-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\Tasking-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\CompilerId\VS-10.vcxproj.in;D:\Program\CMake\share\cmake-4.3\Modules\Internal\CMakeCXXLinkerInformation.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Internal\CMakeCommonLinkerInformation.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Internal\CMakeDetermineLinkerId.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Internal\CMakeInspectCXXLinker.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Internal\FeatureTesting.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Linker\MSVC-CXX.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Linker\MSVC.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Platform\Windows-Determine-CXX.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Platform\Windows-Initialize.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Platform\Windows.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\OtherProject\Config-Table-Exporter\Config-Table-Exporter\build_check\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/OtherProject/Config-Table-Exporter/Config-Table-Exporter/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\Program\CMake\bin\cmake.exe -SD:/OtherProject/Config-Table-Exporter/Config-Table-Exporter -BD:/OtherProject/Config-Table-Exporter/Config-Table-Exporter/build_check --check-stamp-file D:/OtherProject/Config-Table-Exporter/Config-Table-Exporter/build_check/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\OtherProject\Config-Table-Exporter\Config-Table-Exporter\build_check\CMakeFiles\4.3.3\CMakeCXXCompiler.cmake;D:\OtherProject\Config-Table-Exporter\Config-Table-Exporter\build_check\CMakeFiles\4.3.3\CMakeRCCompiler.cmake;D:\OtherProject\Config-Table-Exporter\Config-Table-Exporter\build_check\CMakeFiles\4.3.3\CMakeSystem.cmake;D:\OtherProject\Config-Table-Exporter\Config-Table-Exporter\build_check\CMakeFiles\cmake.verify_globs;D:\Program\CMake\share\cmake-4.3\Modules\CMakeCXXCompiler.cmake.in;D:\Program\CMake\share\cmake-4.3\Modules\CMakeCXXCompilerABI.cpp;D:\Program\CMake\share\cmake-4.3\Modules\CMakeCXXInformation.cmake;D:\Program\CMake\share\cmake-4.3\Modules\CMakeCommonLanguageInclude.cmake;D:\Program\CMake\share\cmake-4.3\Modules\CMakeCompilerIdDetection.cmake;D:\Program\CMake\share\cmake-4.3\Modules\CMakeDetermineCXXCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\CMakeDetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\CMakeDetermineCompilerABI.cmake;D:\Program\CMake\share\cmake-4.3\Modules\CMakeDetermineCompilerId.cmake;D:\Program\CMake\share\cmake-4.3\Modules\CMakeDetermineCompilerSupport.cmake;D:\Program\CMake\share\cmake-4.3\Modules\CMakeDetermineRCCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\CMakeDetermineSystem.cmake;D:\Program\CMake\share\cmake-4.3\Modules\CMakeFindBinUtils.cmake;D:\Program\CMake\share\cmake-4.3\Modules\CMakeGenericSystem.cmake;D:\Program\CMake\share\cmake-4.3\Modules\CMakeInitializeConfigs.cmake;D:\Program\CMake\share\cmake-4.3\Modules\CMakeLanguageInformation.cmake;D:\Program\CMake\share\cmake-4.3\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\Program\CMake\share\cmake-4.3\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Program\CMake\share\cmake-4.3\Modules\CMakeParseLibraryArchitecture.cmake;D:\Program\CMake\share\cmake-4.3\Modules\CMakeRCCompiler.cmake.in;D:\Program\CMake\share\cmake-4.3\Modules\CMakeRCInformation.cmake;D:\Program\CMake\share\cmake-4.3\Modules\CMakeSystem.cmake.in;D:\Program\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInformation.cmake;D:\Program\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program\CMake\share\cmake-4.3\Modules\CMakeTestCXXCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\CMakeTestCompilerCommon.cmake;D:\Program\CMake\share\cmake-4.3\Modules\CMakeTestRCCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\CrayClang-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\Diab-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\MSVC-CXX.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\MSVC.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\NVHPC-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\OrangeC-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\Renesas-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\TI-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\TIClang-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\Tasking-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\CompilerId\VS-10.vcxproj.in;D:\Program\CMake\share\cmake-4.3\Modules\Internal\CMakeCXXLinkerInformation.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Internal\CMakeCommonLinkerInformation.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Internal\CMakeDetermineLinkerId.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Internal\CMakeInspectCXXLinker.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Internal\FeatureTesting.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Linker\MSVC-CXX.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Linker\MSVC.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Platform\Windows-Determine-CXX.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Platform\Windows-Initialize.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Platform\Windows.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\OtherProject\Config-Table-Exporter\Config-Table-Exporter\build_check\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/OtherProject/Config-Table-Exporter/Config-Table-Exporter/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\Program\CMake\bin\cmake.exe -SD:/OtherProject/Config-Table-Exporter/Config-Table-Exporter -BD:/OtherProject/Config-Table-Exporter/Config-Table-Exporter/build_check --check-stamp-file D:/OtherProject/Config-Table-Exporter/Config-Table-Exporter/build_check/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\OtherProject\Config-Table-Exporter\Config-Table-Exporter\build_check\CMakeFiles\4.3.3\CMakeCXXCompiler.cmake;D:\OtherProject\Config-Table-Exporter\Config-Table-Exporter\build_check\CMakeFiles\4.3.3\CMakeRCCompiler.cmake;D:\OtherProject\Config-Table-Exporter\Config-Table-Exporter\build_check\CMakeFiles\4.3.3\CMakeSystem.cmake;D:\OtherProject\Config-Table-Exporter\Config-Table-Exporter\build_check\CMakeFiles\cmake.verify_globs;D:\Program\CMake\share\cmake-4.3\Modules\CMakeCXXCompiler.cmake.in;D:\Program\CMake\share\cmake-4.3\Modules\CMakeCXXCompilerABI.cpp;D:\Program\CMake\share\cmake-4.3\Modules\CMakeCXXInformation.cmake;D:\Program\CMake\share\cmake-4.3\Modules\CMakeCommonLanguageInclude.cmake;D:\Program\CMake\share\cmake-4.3\Modules\CMakeCompilerIdDetection.cmake;D:\Program\CMake\share\cmake-4.3\Modules\CMakeDetermineCXXCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\CMakeDetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\CMakeDetermineCompilerABI.cmake;D:\Program\CMake\share\cmake-4.3\Modules\CMakeDetermineCompilerId.cmake;D:\Program\CMake\share\cmake-4.3\Modules\CMakeDetermineCompilerSupport.cmake;D:\Program\CMake\share\cmake-4.3\Modules\CMakeDetermineRCCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\CMakeDetermineSystem.cmake;D:\Program\CMake\share\cmake-4.3\Modules\CMakeFindBinUtils.cmake;D:\Program\CMake\share\cmake-4.3\Modules\CMakeGenericSystem.cmake;D:\Program\CMake\share\cmake-4.3\Modules\CMakeInitializeConfigs.cmake;D:\Program\CMake\share\cmake-4.3\Modules\CMakeLanguageInformation.cmake;D:\Program\CMake\share\cmake-4.3\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\Program\CMake\share\cmake-4.3\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Program\CMake\share\cmake-4.3\Modules\CMakeParseLibraryArchitecture.cmake;D:\Program\CMake\share\cmake-4.3\Modules\CMakeRCCompiler.cmake.in;D:\Program\CMake\share\cmake-4.3\Modules\CMakeRCInformation.cmake;D:\Program\CMake\share\cmake-4.3\Modules\CMakeSystem.cmake.in;D:\Program\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInformation.cmake;D:\Program\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program\CMake\share\cmake-4.3\Modules\CMakeTestCXXCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\CMakeTestCompilerCommon.cmake;D:\Program\CMake\share\cmake-4.3\Modules\CMakeTestRCCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\CrayClang-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\Diab-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\MSVC-CXX.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\MSVC.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\NVHPC-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\OrangeC-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\Renesas-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\TI-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\TIClang-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\Tasking-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\CompilerId\VS-10.vcxproj.in;D:\Program\CMake\share\cmake-4.3\Modules\Internal\CMakeCXXLinkerInformation.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Internal\CMakeCommonLinkerInformation.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Internal\CMakeDetermineLinkerId.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Internal\CMakeInspectCXXLinker.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Internal\FeatureTesting.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Linker\MSVC-CXX.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Linker\MSVC.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Platform\Windows-Determine-CXX.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Platform\Windows-Initialize.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Platform\Windows.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\OtherProject\Config-Table-Exporter\Config-Table-Exporter\build_check\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/OtherProject/Config-Table-Exporter/Config-Table-Exporter/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\Program\CMake\bin\cmake.exe -SD:/OtherProject/Config-Table-Exporter/Config-Table-Exporter -BD:/OtherProject/Config-Table-Exporter/Config-Table-Exporter/build_check --check-stamp-file D:/OtherProject/Config-Table-Exporter/Config-Table-Exporter/build_check/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\OtherProject\Config-Table-Exporter\Config-Table-Exporter\build_check\CMakeFiles\4.3.3\CMakeCXXCompiler.cmake;D:\OtherProject\Config-Table-Exporter\Config-Table-Exporter\build_check\CMakeFiles\4.3.3\CMakeRCCompiler.cmake;D:\OtherProject\Config-Table-Exporter\Config-Table-Exporter\build_check\CMakeFiles\4.3.3\CMakeSystem.cmake;D:\OtherProject\Config-Table-Exporter\Config-Table-Exporter\build_check\CMakeFiles\cmake.verify_globs;D:\Program\CMake\share\cmake-4.3\Modules\CMakeCXXCompiler.cmake.in;D:\Program\CMake\share\cmake-4.3\Modules\CMakeCXXCompilerABI.cpp;D:\Program\CMake\share\cmake-4.3\Modules\CMakeCXXInformation.cmake;D:\Program\CMake\share\cmake-4.3\Modules\CMakeCommonLanguageInclude.cmake;D:\Program\CMake\share\cmake-4.3\Modules\CMakeCompilerIdDetection.cmake;D:\Program\CMake\share\cmake-4.3\Modules\CMakeDetermineCXXCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\CMakeDetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\CMakeDetermineCompilerABI.cmake;D:\Program\CMake\share\cmake-4.3\Modules\CMakeDetermineCompilerId.cmake;D:\Program\CMake\share\cmake-4.3\Modules\CMakeDetermineCompilerSupport.cmake;D:\Program\CMake\share\cmake-4.3\Modules\CMakeDetermineRCCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\CMakeDetermineSystem.cmake;D:\Program\CMake\share\cmake-4.3\Modules\CMakeFindBinUtils.cmake;D:\Program\CMake\share\cmake-4.3\Modules\CMakeGenericSystem.cmake;D:\Program\CMake\share\cmake-4.3\Modules\CMakeInitializeConfigs.cmake;D:\Program\CMake\share\cmake-4.3\Modules\CMakeLanguageInformation.cmake;D:\Program\CMake\share\cmake-4.3\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\Program\CMake\share\cmake-4.3\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Program\CMake\share\cmake-4.3\Modules\CMakeParseLibraryArchitecture.cmake;D:\Program\CMake\share\cmake-4.3\Modules\CMakeRCCompiler.cmake.in;D:\Program\CMake\share\cmake-4.3\Modules\CMakeRCInformation.cmake;D:\Program\CMake\share\cmake-4.3\Modules\CMakeSystem.cmake.in;D:\Program\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInformation.cmake;D:\Program\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program\CMake\share\cmake-4.3\Modules\CMakeTestCXXCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\CMakeTestCompilerCommon.cmake;D:\Program\CMake\share\cmake-4.3\Modules\CMakeTestRCCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\CrayClang-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\Diab-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\MSVC-CXX.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\MSVC.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\NVHPC-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\OrangeC-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\Renesas-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\TI-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\TIClang-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\Tasking-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\Program\CMake\share\cmake-4.3\Modules\CompilerId\VS-10.vcxproj.in;D:\Program\CMake\share\cmake-4.3\Modules\Internal\CMakeCXXLinkerInformation.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Internal\CMakeCommonLinkerInformation.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Internal\CMakeDetermineLinkerId.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Internal\CMakeInspectCXXLinker.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Internal\FeatureTesting.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Linker\MSVC-CXX.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Linker\MSVC.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Platform\Windows-Determine-CXX.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Platform\Windows-Initialize.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Platform\Windows.cmake;D:\Program\CMake\share\cmake-4.3\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\OtherProject\Config-Table-Exporter\Config-Table-Exporter\build_check\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\OtherProject\Config-Table-Exporter\Config-Table-Exporter\src\CSharpExporter.cpp" />
+    <ClInclude Include="D:\OtherProject\Config-Table-Exporter\Config-Table-Exporter\src\CSharpExporter.h" />
+    <ClCompile Include="D:\OtherProject\Config-Table-Exporter\Config-Table-Exporter\src\ConfigManagerExporter.cpp" />
+    <ClInclude Include="D:\OtherProject\Config-Table-Exporter\Config-Table-Exporter\src\ConfigManagerExporter.h" />
+    <ClCompile Include="D:\OtherProject\Config-Table-Exporter\Config-Table-Exporter\src\ConsoleOptions.cpp" />
+    <ClInclude Include="D:\OtherProject\Config-Table-Exporter\Config-Table-Exporter\src\ConsoleOptions.h" />
+    <ClCompile Include="D:\OtherProject\Config-Table-Exporter\Config-Table-Exporter\src\CsvReader.cpp" />
+    <ClInclude Include="D:\OtherProject\Config-Table-Exporter\Config-Table-Exporter\src\CsvReader.h" />
+    <ClCompile Include="D:\OtherProject\Config-Table-Exporter\Config-Table-Exporter\src\EncodingUtils.cpp" />
+    <ClInclude Include="D:\OtherProject\Config-Table-Exporter\Config-Table-Exporter\src\EncodingUtils.h" />
+    <ClCompile Include="D:\OtherProject\Config-Table-Exporter\Config-Table-Exporter\src\ExcelReader.cpp" />
+    <ClInclude Include="D:\OtherProject\Config-Table-Exporter\Config-Table-Exporter\src\ExcelReader.h" />
+    <ClCompile Include="D:\OtherProject\Config-Table-Exporter\Config-Table-Exporter\src\ExportSummary.cpp" />
+    <ClInclude Include="D:\OtherProject\Config-Table-Exporter\Config-Table-Exporter\src\ExportSummary.h" />
+    <ClCompile Include="D:\OtherProject\Config-Table-Exporter\Config-Table-Exporter\src\JsonExporter.cpp" />
+    <ClInclude Include="D:\OtherProject\Config-Table-Exporter\Config-Table-Exporter\src\JsonExporter.h" />
+    <ClCompile Include="D:\OtherProject\Config-Table-Exporter\Config-Table-Exporter\src\Logger.cpp" />
+    <ClInclude Include="D:\OtherProject\Config-Table-Exporter\Config-Table-Exporter\src\Logger.h" />
+    <ClCompile Include="D:\OtherProject\Config-Table-Exporter\Config-Table-Exporter\src\ReportGenerator.cpp" />
+    <ClInclude Include="D:\OtherProject\Config-Table-Exporter\Config-Table-Exporter\src\ReportGenerator.h" />
+    <ClCompile Include="D:\OtherProject\Config-Table-Exporter\Config-Table-Exporter\src\StringUtils.cpp" />
+    <ClInclude Include="D:\OtherProject\Config-Table-Exporter\Config-Table-Exporter\src\StringUtils.h" />
+    <ClCompile Include="D:\OtherProject\Config-Table-Exporter\Config-Table-Exporter\src\TableData.cpp" />
+    <ClInclude Include="D:\OtherProject\Config-Table-Exporter\Config-Table-Exporter\src\TableData.h" />
+    <ClCompile Include="D:\OtherProject\Config-Table-Exporter\Config-Table-Exporter\src\TableReader.cpp" />
+    <ClInclude Include="D:\OtherProject\Config-Table-Exporter\Config-Table-Exporter\src\TableReader.h" />
+    <ClCompile Include="D:\OtherProject\Config-Table-Exporter\Config-Table-Exporter\src\Validator.cpp" />
+    <ClInclude Include="D:\OtherProject\Config-Table-Exporter\Config-Table-Exporter\src\Validator.h" />
+    <ClCompile Include="D:\OtherProject\Config-Table-Exporter\Config-Table-Exporter\src\main.cpp" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="D:\OtherProject\Config-Table-Exporter\Config-Table-Exporter\build_check\ZERO_CHECK.vcxproj">
+      <Project>{5A6D8A64-003A-35E5-9BC0-255328317926}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

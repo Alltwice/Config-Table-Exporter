@@ -1,0 +1,4 @@
+#id,#note
+int,string
+IgnoredID,IgnoredNote
+1,Hidden

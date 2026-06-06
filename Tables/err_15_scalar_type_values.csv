@@ -1,0 +1,4 @@
+id,intValue,longValue,shortValue,byteValue,floatValue,doubleValue,boolValue
+int,int,long,short,byte,float,double,bool
+ID,IntValue,LongValue,ShortValue,ByteValue,FloatValue,DoubleValue,BoolValue
+1,not_int,not_long,40000,300,not_float,not_double,maybe

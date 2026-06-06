@@ -1,0 +1,1335 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.26200 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/"
+    found: "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Program\\VS2026\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64"
+        - "D:\\Program\\VS2026\\Common7\\IDE\\VC\\VCPackages"
+        - "D:\\Program\\VS2026\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "D:\\Program\\VS2026\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "D:\\Program\\VS2026\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8.1 Tools\\x64\\"
+        - "D:\\Program\\VS2026\\Common7\\IDE\\CommonExtensions\\Microsoft\\FSharp\\Tools"
+        - "D:\\Program\\VS2026\\Team Tools\\DiagnosticsHub\\Collector"
+        - "D:\\Program\\VS2026\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x64"
+        - "D:\\Program\\VS2026\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "D:\\Program\\VS2026\\Common7\\IDE\\"
+        - "D:\\Program\\VS2026\\Common7\\Tools\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "D:\\Program\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\31482\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Program\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\31482\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\31482\\AppData\\Roaming\\npm"
+        - "C:\\Users\\31482\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\31482\\.dotnet\\tools"
+        - "C:\\msys64\\mingw64\\bin"
+        - "D:\\Program\\VS2026\\Common7\\IDE\\PrivateAssemblies\\runtimes\\win-x64\\native"
+        - "D:\\Program\\VS2026\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "D:\\Program\\VS2026\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "D:\\Program\\VS2026\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "D:\\Program\\VS2026\\VC\\vcpkg"
+      CMAKE_INSTALL_PREFIX: "D:/OtherProject/ExcleTable Reading/GameConfigExporter/out/install/x64-Debug"
+      ENV{INCLUDE}:
+        - "D:\\Program\\VS2026\\VC\\Tools\\MSVC\\14.51.36231\\include"
+        - "D:\\Program\\VS2026\\VC\\Tools\\MSVC\\14.51.36231\\ATLMFC\\include"
+        - "D:\\Program\\VS2026\\VC\\Auxiliary\\VS\\include"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.26100.0\\ucrt"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.26100.0\\\\um"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.26100.0\\\\shared"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.26100.0\\\\winrt"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.26100.0\\\\cppwinrt"
+        - "C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8.1\\include\\um"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: D:/Program/VS2026/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/cl.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36244 for x64
+      版权所有(C) Microsoft Corporation。保留所有权利。
+      
+      CMakeCXXCompilerId.cpp
+      Microsoft (R) Incremental Linker Version 14.51.36244.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      /out:CMakeCXXCompilerId.exe 
+      CMakeCXXCompilerId.obj 
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+      
+      The CXX compiler identification is MSVC, found in:
+        D:/OtherProject/ExcleTable Reading/GameConfigExporter/out/build/x64-Debug/CMakeFiles/4.2.3-msvc3/CompilerIdCXX/CMakeCXXCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:1341 (message)"
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        main.c
+        注意: 包含文件:  D:\\OtherProject\\ExcleTable Reading\\GameConfigExporter\\out\\build\\x64-Debug\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "注意: 包含文件:  "
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "D:/Program/VS2026/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "D:/Program/VS2026/Common7/IDE/VC/vcpackages/"
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/"
+      - "D:/Program/VS2026/MSBuild/Current/Bin/Roslyn/"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8.1 Tools/x64/"
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/FSharp/Tools/"
+      - "D:/Program/VS2026/Team Tools/DiagnosticsHub/Collector/"
+      - "D:/Program/VS2026/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x64/"
+      - "D:/Program/VS2026/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
+      - "D:/Program/VS2026/Common7/IDE/"
+      - "D:/Program/VS2026/Common7/Tools/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "D:/Program/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/31482/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Program/cursor/resources/app/bin/"
+      - "C:/Users/31482/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/31482/AppData/Roaming/npm/"
+      - "C:/Users/31482/AppData/Local/Python/bin/"
+      - "C:/Users/31482/.dotnet/tools/"
+      - "C:/msys64/mingw64/bin/"
+      - "D:/Program/VS2026/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/"
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
+      - "D:/Program/VS2026/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+      - "D:/Program/VS2026/VC/vcpkg/"
+    searched_directories:
+      - "D:/Program/VS2026/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/link.com"
+    found: "D:/Program/VS2026/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Program\\VS2026\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64"
+        - "D:\\Program\\VS2026\\Common7\\IDE\\VC\\VCPackages"
+        - "D:\\Program\\VS2026\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "D:\\Program\\VS2026\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "D:\\Program\\VS2026\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8.1 Tools\\x64\\"
+        - "D:\\Program\\VS2026\\Common7\\IDE\\CommonExtensions\\Microsoft\\FSharp\\Tools"
+        - "D:\\Program\\VS2026\\Team Tools\\DiagnosticsHub\\Collector"
+        - "D:\\Program\\VS2026\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x64"
+        - "D:\\Program\\VS2026\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "D:\\Program\\VS2026\\Common7\\IDE\\"
+        - "D:\\Program\\VS2026\\Common7\\Tools\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "D:\\Program\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\31482\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Program\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\31482\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\31482\\AppData\\Roaming\\npm"
+        - "C:\\Users\\31482\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\31482\\.dotnet\\tools"
+        - "C:\\msys64\\mingw64\\bin"
+        - "D:\\Program\\VS2026\\Common7\\IDE\\PrivateAssemblies\\runtimes\\win-x64\\native"
+        - "D:\\Program\\VS2026\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "D:\\Program\\VS2026\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "D:\\Program\\VS2026\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "D:\\Program\\VS2026\\VC\\vcpkg"
+      CMAKE_INSTALL_PREFIX: "D:/OtherProject/ExcleTable Reading/GameConfigExporter/out/install/x64-Debug"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "D:/Program/VS2026/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "D:/Program/VS2026/Common7/IDE/VC/vcpackages/"
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/"
+      - "D:/Program/VS2026/MSBuild/Current/Bin/Roslyn/"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8.1 Tools/x64/"
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/FSharp/Tools/"
+      - "D:/Program/VS2026/Team Tools/DiagnosticsHub/Collector/"
+      - "D:/Program/VS2026/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x64/"
+      - "D:/Program/VS2026/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
+      - "D:/Program/VS2026/Common7/IDE/"
+      - "D:/Program/VS2026/Common7/Tools/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "D:/Program/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/31482/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Program/cursor/resources/app/bin/"
+      - "C:/Users/31482/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/31482/AppData/Roaming/npm/"
+      - "C:/Users/31482/AppData/Local/Python/bin/"
+      - "C:/Users/31482/.dotnet/tools/"
+      - "C:/msys64/mingw64/bin/"
+      - "D:/Program/VS2026/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/"
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
+      - "D:/Program/VS2026/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+      - "D:/Program/VS2026/VC/vcpkg/"
+    searched_directories:
+      - "D:/Program/VS2026/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link.com"
+      - "D:/Program/VS2026/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link.exe"
+      - "D:/Program/VS2026/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link"
+      - "D:/Program/VS2026/Common7/IDE/VC/vcpackages/lld-link.com"
+      - "D:/Program/VS2026/Common7/IDE/VC/vcpackages/lld-link.exe"
+      - "D:/Program/VS2026/Common7/IDE/VC/vcpackages/lld-link"
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/TestWindow/lld-link.com"
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/TestWindow/lld-link.exe"
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/TestWindow/lld-link"
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/lld-link.com"
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/lld-link.exe"
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/lld-link"
+      - "D:/Program/VS2026/MSBuild/Current/Bin/Roslyn/lld-link.com"
+      - "D:/Program/VS2026/MSBuild/Current/Bin/Roslyn/lld-link.exe"
+      - "D:/Program/VS2026/MSBuild/Current/Bin/Roslyn/lld-link"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8.1 Tools/x64/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8.1 Tools/x64/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8.1 Tools/x64/lld-link"
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/FSharp/Tools/lld-link.com"
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/FSharp/Tools/lld-link.exe"
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/FSharp/Tools/lld-link"
+      - "D:/Program/VS2026/Team Tools/DiagnosticsHub/Collector/lld-link.com"
+      - "D:/Program/VS2026/Team Tools/DiagnosticsHub/Collector/lld-link.exe"
+      - "D:/Program/VS2026/Team Tools/DiagnosticsHub/Collector/lld-link"
+      - "D:/Program/VS2026/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/lld-link.com"
+      - "D:/Program/VS2026/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/lld-link.exe"
+      - "D:/Program/VS2026/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x64/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x64/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x64/lld-link"
+      - "D:/Program/VS2026/MSBuild/Current/Bin/amd64/lld-link.com"
+      - "D:/Program/VS2026/MSBuild/Current/Bin/amd64/lld-link.exe"
+      - "D:/Program/VS2026/MSBuild/Current/Bin/amd64/lld-link"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/lld-link.com"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/lld-link.exe"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/lld-link"
+      - "D:/Program/VS2026/Common7/IDE/lld-link.com"
+      - "D:/Program/VS2026/Common7/IDE/lld-link.exe"
+      - "D:/Program/VS2026/Common7/IDE/lld-link"
+      - "D:/Program/VS2026/Common7/Tools/lld-link.com"
+      - "D:/Program/VS2026/Common7/Tools/lld-link.exe"
+      - "D:/Program/VS2026/Common7/Tools/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "D:/Program/Git/cmd/lld-link.com"
+      - "D:/Program/Git/cmd/lld-link.exe"
+      - "D:/Program/Git/cmd/lld-link"
+      - "C:/Program Files/nodejs/lld-link.com"
+      - "C:/Program Files/nodejs/lld-link.exe"
+      - "C:/Program Files/nodejs/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "C:/Users/31482/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/31482/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/31482/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "D:/Program/cursor/resources/app/bin/lld-link.com"
+      - "D:/Program/cursor/resources/app/bin/lld-link.exe"
+      - "D:/Program/cursor/resources/app/bin/lld-link"
+      - "C:/Users/31482/AppData/Local/GitHubDesktop/bin/lld-link.com"
+      - "C:/Users/31482/AppData/Local/GitHubDesktop/bin/lld-link.exe"
+      - "C:/Users/31482/AppData/Local/GitHubDesktop/bin/lld-link"
+      - "C:/Users/31482/AppData/Roaming/npm/lld-link.com"
+      - "C:/Users/31482/AppData/Roaming/npm/lld-link.exe"
+      - "C:/Users/31482/AppData/Roaming/npm/lld-link"
+      - "C:/Users/31482/AppData/Local/Python/bin/lld-link.com"
+      - "C:/Users/31482/AppData/Local/Python/bin/lld-link.exe"
+      - "C:/Users/31482/AppData/Local/Python/bin/lld-link"
+      - "C:/Users/31482/.dotnet/tools/lld-link.com"
+      - "C:/Users/31482/.dotnet/tools/lld-link.exe"
+      - "C:/Users/31482/.dotnet/tools/lld-link"
+      - "C:/msys64/mingw64/bin/lld-link.com"
+      - "C:/msys64/mingw64/bin/lld-link.exe"
+      - "C:/msys64/mingw64/bin/lld-link"
+      - "D:/Program/VS2026/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/lld-link.com"
+      - "D:/Program/VS2026/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/lld-link.exe"
+      - "D:/Program/VS2026/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/lld-link"
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/lld-link.com"
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/lld-link.exe"
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/lld-link"
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/lld-link.com"
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/lld-link.exe"
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/lld-link"
+      - "D:/Program/VS2026/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/lld-link.com"
+      - "D:/Program/VS2026/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/lld-link.exe"
+      - "D:/Program/VS2026/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/lld-link"
+      - "D:/Program/VS2026/VC/vcpkg/lld-link.com"
+      - "D:/Program/VS2026/VC/vcpkg/lld-link.exe"
+      - "D:/Program/VS2026/VC/vcpkg/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "D:\\Program\\VS2026\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64"
+        - "D:\\Program\\VS2026\\Common7\\IDE\\VC\\VCPackages"
+        - "D:\\Program\\VS2026\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "D:\\Program\\VS2026\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "D:\\Program\\VS2026\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8.1 Tools\\x64\\"
+        - "D:\\Program\\VS2026\\Common7\\IDE\\CommonExtensions\\Microsoft\\FSharp\\Tools"
+        - "D:\\Program\\VS2026\\Team Tools\\DiagnosticsHub\\Collector"
+        - "D:\\Program\\VS2026\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x64"
+        - "D:\\Program\\VS2026\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "D:\\Program\\VS2026\\Common7\\IDE\\"
+        - "D:\\Program\\VS2026\\Common7\\Tools\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "D:\\Program\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\31482\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Program\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\31482\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\31482\\AppData\\Roaming\\npm"
+        - "C:\\Users\\31482\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\31482\\.dotnet\\tools"
+        - "C:\\msys64\\mingw64\\bin"
+        - "D:\\Program\\VS2026\\Common7\\IDE\\PrivateAssemblies\\runtimes\\win-x64\\native"
+        - "D:\\Program\\VS2026\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "D:\\Program\\VS2026\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "D:\\Program\\VS2026\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "D:\\Program\\VS2026\\VC\\vcpkg"
+      CMAKE_INSTALL_PREFIX: "D:/OtherProject/ExcleTable Reading/GameConfigExporter/out/install/x64-Debug"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "D:/Program/VS2026/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "D:/Program/VS2026/Common7/IDE/VC/vcpackages/"
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/"
+      - "D:/Program/VS2026/MSBuild/Current/Bin/Roslyn/"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8.1 Tools/x64/"
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/FSharp/Tools/"
+      - "D:/Program/VS2026/Team Tools/DiagnosticsHub/Collector/"
+      - "D:/Program/VS2026/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x64/"
+      - "D:/Program/VS2026/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
+      - "D:/Program/VS2026/Common7/IDE/"
+      - "D:/Program/VS2026/Common7/Tools/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "D:/Program/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/31482/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Program/cursor/resources/app/bin/"
+      - "C:/Users/31482/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/31482/AppData/Roaming/npm/"
+      - "C:/Users/31482/AppData/Local/Python/bin/"
+      - "C:/Users/31482/.dotnet/tools/"
+      - "C:/msys64/mingw64/bin/"
+      - "D:/Program/VS2026/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/"
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
+      - "D:/Program/VS2026/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+      - "D:/Program/VS2026/VC/vcpkg/"
+    searched_directories:
+      - "D:/Program/VS2026/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/link.com"
+    found: "D:/Program/VS2026/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Program\\VS2026\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64"
+        - "D:\\Program\\VS2026\\Common7\\IDE\\VC\\VCPackages"
+        - "D:\\Program\\VS2026\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "D:\\Program\\VS2026\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "D:\\Program\\VS2026\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8.1 Tools\\x64\\"
+        - "D:\\Program\\VS2026\\Common7\\IDE\\CommonExtensions\\Microsoft\\FSharp\\Tools"
+        - "D:\\Program\\VS2026\\Team Tools\\DiagnosticsHub\\Collector"
+        - "D:\\Program\\VS2026\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x64"
+        - "D:\\Program\\VS2026\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "D:\\Program\\VS2026\\Common7\\IDE\\"
+        - "D:\\Program\\VS2026\\Common7\\Tools\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "D:\\Program\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\31482\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Program\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\31482\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\31482\\AppData\\Roaming\\npm"
+        - "C:\\Users\\31482\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\31482\\.dotnet\\tools"
+        - "C:\\msys64\\mingw64\\bin"
+        - "D:\\Program\\VS2026\\Common7\\IDE\\PrivateAssemblies\\runtimes\\win-x64\\native"
+        - "D:\\Program\\VS2026\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "D:\\Program\\VS2026\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "D:\\Program\\VS2026\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "D:\\Program\\VS2026\\VC\\vcpkg"
+      CMAKE_INSTALL_PREFIX: "D:/OtherProject/ExcleTable Reading/GameConfigExporter/out/install/x64-Debug"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_MT"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mt"
+    candidate_directories:
+      - "D:/Program/VS2026/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "D:/Program/VS2026/Common7/IDE/VC/vcpackages/"
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/"
+      - "D:/Program/VS2026/MSBuild/Current/Bin/Roslyn/"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8.1 Tools/x64/"
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/FSharp/Tools/"
+      - "D:/Program/VS2026/Team Tools/DiagnosticsHub/Collector/"
+      - "D:/Program/VS2026/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x64/"
+      - "D:/Program/VS2026/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
+      - "D:/Program/VS2026/Common7/IDE/"
+      - "D:/Program/VS2026/Common7/Tools/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "D:/Program/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/31482/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Program/cursor/resources/app/bin/"
+      - "C:/Users/31482/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/31482/AppData/Roaming/npm/"
+      - "C:/Users/31482/AppData/Local/Python/bin/"
+      - "C:/Users/31482/.dotnet/tools/"
+      - "C:/msys64/mingw64/bin/"
+      - "D:/Program/VS2026/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/"
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
+      - "D:/Program/VS2026/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+      - "D:/Program/VS2026/VC/vcpkg/"
+    searched_directories:
+      - "D:/Program/VS2026/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/mt.com"
+      - "D:/Program/VS2026/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/mt.exe"
+      - "D:/Program/VS2026/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/mt"
+      - "D:/Program/VS2026/Common7/IDE/VC/vcpackages/mt.com"
+      - "D:/Program/VS2026/Common7/IDE/VC/vcpackages/mt.exe"
+      - "D:/Program/VS2026/Common7/IDE/VC/vcpackages/mt"
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/TestWindow/mt.com"
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/TestWindow/mt.exe"
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/TestWindow/mt"
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/mt.com"
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/mt.exe"
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/mt"
+      - "D:/Program/VS2026/MSBuild/Current/Bin/Roslyn/mt.com"
+      - "D:/Program/VS2026/MSBuild/Current/Bin/Roslyn/mt.exe"
+      - "D:/Program/VS2026/MSBuild/Current/Bin/Roslyn/mt"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8.1 Tools/x64/mt.com"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8.1 Tools/x64/mt.exe"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8.1 Tools/x64/mt"
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/FSharp/Tools/mt.com"
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/FSharp/Tools/mt.exe"
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/FSharp/Tools/mt"
+      - "D:/Program/VS2026/Team Tools/DiagnosticsHub/Collector/mt.com"
+      - "D:/Program/VS2026/Team Tools/DiagnosticsHub/Collector/mt.exe"
+      - "D:/Program/VS2026/Team Tools/DiagnosticsHub/Collector/mt"
+      - "D:/Program/VS2026/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/mt.com"
+      - "D:/Program/VS2026/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/mt.exe"
+      - "D:/Program/VS2026/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/mt"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/mt.com"
+    found: "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/mt.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Program\\VS2026\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64"
+        - "D:\\Program\\VS2026\\Common7\\IDE\\VC\\VCPackages"
+        - "D:\\Program\\VS2026\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "D:\\Program\\VS2026\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "D:\\Program\\VS2026\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8.1 Tools\\x64\\"
+        - "D:\\Program\\VS2026\\Common7\\IDE\\CommonExtensions\\Microsoft\\FSharp\\Tools"
+        - "D:\\Program\\VS2026\\Team Tools\\DiagnosticsHub\\Collector"
+        - "D:\\Program\\VS2026\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x64"
+        - "D:\\Program\\VS2026\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "D:\\Program\\VS2026\\Common7\\IDE\\"
+        - "D:\\Program\\VS2026\\Common7\\Tools\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "D:\\Program\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\31482\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Program\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\31482\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\31482\\AppData\\Roaming\\npm"
+        - "C:\\Users\\31482\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\31482\\.dotnet\\tools"
+        - "C:\\msys64\\mingw64\\bin"
+        - "D:\\Program\\VS2026\\Common7\\IDE\\PrivateAssemblies\\runtimes\\win-x64\\native"
+        - "D:\\Program\\VS2026\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "D:\\Program\\VS2026\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "D:\\Program\\VS2026\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "D:\\Program\\VS2026\\VC\\vcpkg"
+      CMAKE_INSTALL_PREFIX: "D:/OtherProject/ExcleTable Reading/GameConfigExporter/out/install/x64-Debug"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lib"
+    candidate_directories:
+      - "D:/Program/VS2026/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "D:/Program/VS2026/Common7/IDE/VC/vcpackages/"
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/"
+      - "D:/Program/VS2026/MSBuild/Current/Bin/Roslyn/"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8.1 Tools/x64/"
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/FSharp/Tools/"
+      - "D:/Program/VS2026/Team Tools/DiagnosticsHub/Collector/"
+      - "D:/Program/VS2026/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x64/"
+      - "D:/Program/VS2026/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
+      - "D:/Program/VS2026/Common7/IDE/"
+      - "D:/Program/VS2026/Common7/Tools/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "D:/Program/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/31482/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Program/cursor/resources/app/bin/"
+      - "C:/Users/31482/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/31482/AppData/Roaming/npm/"
+      - "C:/Users/31482/AppData/Local/Python/bin/"
+      - "C:/Users/31482/.dotnet/tools/"
+      - "C:/msys64/mingw64/bin/"
+      - "D:/Program/VS2026/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/"
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
+      - "D:/Program/VS2026/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+      - "D:/Program/VS2026/VC/vcpkg/"
+    searched_directories:
+      - "D:/Program/VS2026/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lib.com"
+    found: "D:/Program/VS2026/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lib.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Program\\VS2026\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64"
+        - "D:\\Program\\VS2026\\Common7\\IDE\\VC\\VCPackages"
+        - "D:\\Program\\VS2026\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "D:\\Program\\VS2026\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "D:\\Program\\VS2026\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8.1 Tools\\x64\\"
+        - "D:\\Program\\VS2026\\Common7\\IDE\\CommonExtensions\\Microsoft\\FSharp\\Tools"
+        - "D:\\Program\\VS2026\\Team Tools\\DiagnosticsHub\\Collector"
+        - "D:\\Program\\VS2026\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x64"
+        - "D:\\Program\\VS2026\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "D:\\Program\\VS2026\\Common7\\IDE\\"
+        - "D:\\Program\\VS2026\\Common7\\Tools\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "D:\\Program\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\31482\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Program\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\31482\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\31482\\AppData\\Roaming\\npm"
+        - "C:\\Users\\31482\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\31482\\.dotnet\\tools"
+        - "C:\\msys64\\mingw64\\bin"
+        - "D:\\Program\\VS2026\\Common7\\IDE\\PrivateAssemblies\\runtimes\\win-x64\\native"
+        - "D:\\Program\\VS2026\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "D:\\Program\\VS2026\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "D:\\Program\\VS2026\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "D:\\Program\\VS2026\\VC\\vcpkg"
+      CMAKE_INSTALL_PREFIX: "D:/OtherProject/ExcleTable Reading/GameConfigExporter/out/install/x64-Debug"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/Platform/Windows-MSVC.cmake:584 (enable_language)"
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/Platform/Windows-MSVC.cmake:557 (__windows_compiler_msvc_enable_rc)"
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/Platform/Windows-MSVC-CXX.cmake:6 (__windows_compiler_msvc)"
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeCXXInformation.cmake:48 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "rc"
+    candidate_directories:
+      - "D:/Program/VS2026/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "D:/Program/VS2026/Common7/IDE/VC/vcpackages/"
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/"
+      - "D:/Program/VS2026/MSBuild/Current/Bin/Roslyn/"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8.1 Tools/x64/"
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/FSharp/Tools/"
+      - "D:/Program/VS2026/Team Tools/DiagnosticsHub/Collector/"
+      - "D:/Program/VS2026/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x64/"
+      - "D:/Program/VS2026/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
+      - "D:/Program/VS2026/Common7/IDE/"
+      - "D:/Program/VS2026/Common7/Tools/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "D:/Program/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/31482/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Program/cursor/resources/app/bin/"
+      - "C:/Users/31482/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/31482/AppData/Roaming/npm/"
+      - "C:/Users/31482/AppData/Local/Python/bin/"
+      - "C:/Users/31482/.dotnet/tools/"
+      - "C:/msys64/mingw64/bin/"
+      - "D:/Program/VS2026/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/"
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
+      - "D:/Program/VS2026/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+      - "D:/Program/VS2026/VC/vcpkg/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/"
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/"
+      - "D:/OtherProject/ExcleTable Reading/GameConfigExporter/out/install/x64-Debug/bin/"
+      - "D:/OtherProject/ExcleTable Reading/GameConfigExporter/out/install/x64-Debug/sbin/"
+      - "D:/OtherProject/ExcleTable Reading/GameConfigExporter/out/install/x64-Debug/"
+    searched_directories:
+      - "D:/Program/VS2026/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/rc.com"
+      - "D:/Program/VS2026/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/rc.exe"
+      - "D:/Program/VS2026/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/rc"
+      - "D:/Program/VS2026/Common7/IDE/VC/vcpackages/rc.com"
+      - "D:/Program/VS2026/Common7/IDE/VC/vcpackages/rc.exe"
+      - "D:/Program/VS2026/Common7/IDE/VC/vcpackages/rc"
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/TestWindow/rc.com"
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/TestWindow/rc.exe"
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/TestWindow/rc"
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/rc.com"
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/rc.exe"
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/rc"
+      - "D:/Program/VS2026/MSBuild/Current/Bin/Roslyn/rc.com"
+      - "D:/Program/VS2026/MSBuild/Current/Bin/Roslyn/rc.exe"
+      - "D:/Program/VS2026/MSBuild/Current/Bin/Roslyn/rc"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8.1 Tools/x64/rc.com"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8.1 Tools/x64/rc.exe"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8.1 Tools/x64/rc"
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/FSharp/Tools/rc.com"
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/FSharp/Tools/rc.exe"
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/FSharp/Tools/rc"
+      - "D:/Program/VS2026/Team Tools/DiagnosticsHub/Collector/rc.com"
+      - "D:/Program/VS2026/Team Tools/DiagnosticsHub/Collector/rc.exe"
+      - "D:/Program/VS2026/Team Tools/DiagnosticsHub/Collector/rc"
+      - "D:/Program/VS2026/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/rc.com"
+      - "D:/Program/VS2026/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/rc.exe"
+      - "D:/Program/VS2026/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/rc"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/rc.com"
+    found: "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/rc.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Program\\VS2026\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64"
+        - "D:\\Program\\VS2026\\Common7\\IDE\\VC\\VCPackages"
+        - "D:\\Program\\VS2026\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "D:\\Program\\VS2026\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "D:\\Program\\VS2026\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8.1 Tools\\x64\\"
+        - "D:\\Program\\VS2026\\Common7\\IDE\\CommonExtensions\\Microsoft\\FSharp\\Tools"
+        - "D:\\Program\\VS2026\\Team Tools\\DiagnosticsHub\\Collector"
+        - "D:\\Program\\VS2026\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x64"
+        - "D:\\Program\\VS2026\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "D:\\Program\\VS2026\\Common7\\IDE\\"
+        - "D:\\Program\\VS2026\\Common7\\Tools\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "D:\\Program\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\31482\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Program\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\31482\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\31482\\AppData\\Roaming\\npm"
+        - "C:\\Users\\31482\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\31482\\.dotnet\\tools"
+        - "C:\\msys64\\mingw64\\bin"
+        - "D:\\Program\\VS2026\\Common7\\IDE\\PrivateAssemblies\\runtimes\\win-x64\\native"
+        - "D:\\Program\\VS2026\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "D:\\Program\\VS2026\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "D:\\Program\\VS2026\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "D:\\Program\\VS2026\\VC\\vcpkg"
+      CMAKE_INSTALL_PREFIX: "D:/OtherProject/ExcleTable Reading/GameConfigExporter/out/install/x64-Debug"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake"
+        - "D:/OtherProject/ExcleTable Reading/GameConfigExporter/out/install/x64-Debug"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/OtherProject/ExcleTable Reading/GameConfigExporter/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-xyfxt9"
+      binary: "D:/OtherProject/ExcleTable Reading/GameConfigExporter/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-xyfxt9"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/OtherProject/ExcleTable Reading/GameConfigExporter/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-xyfxt9'
+        
+        Run Build Command(s): D:\\Program\\VS2026\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja\\ninja.exe -v cmTC_3caf1
+        [1/2] D:\\Program\\VS2026\\VC\\Tools\\MSVC\\14.51.36231\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -D_MBCS  /DWIN32 /D_WINDOWS /GR /EHsc  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_3caf1.dir\\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\\cmTC_3caf1.dir\\ /FS -c D:\\Program\\VS2026\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && D:\\Program\\VS2026\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --msvc-ver=1951 --intdir=CMakeFiles\\cmTC_3caf1.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- D:\\Program\\VS2026\\VC\\Tools\\MSVC\\14.51.36231\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_3caf1.dir\\CMakeCXXCompilerABI.cpp.obj  /out:cmTC_3caf1.exe /implib:cmTC_3caf1.lib /pdb:cmTC_3caf1.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': D:/Program/VS2026/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "D:/Program/VS2026/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.51.36244.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "CMakeLists.txt:19 (find_package)"
+    name: "OpenXLSX"
+    configs:
+      -
+        filename: "OpenXLSXConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "openxlsx-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "optional"
+      quiet: true
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "OpenXLSX"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "D:/OtherProject/ExcleTable Reading/GameConfigExporter/out/build/x64-Debug/CMakeFiles/pkgRedirects/OpenXLSXConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/OtherProject/ExcleTable Reading/GameConfigExporter/out/build/x64-Debug/CMakeFiles/pkgRedirects/openxlsx-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program/VS2026/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/OpenXLSXConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program/VS2026/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/openxlsx-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program/VS2026/Common7/IDE/VC/vcpackages/OpenXLSXConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program/VS2026/Common7/IDE/VC/vcpackages/openxlsx-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/TestWindow/OpenXLSXConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/TestWindow/openxlsx-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/OpenXLSXConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/openxlsx-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program/VS2026/MSBuild/Current/Bin/Roslyn/OpenXLSXConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program/VS2026/MSBuild/Current/Bin/Roslyn/openxlsx-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8.1 Tools/x64/OpenXLSXConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8.1 Tools/x64/openxlsx-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/FSharp/Tools/OpenXLSXConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/FSharp/Tools/openxlsx-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program/VS2026/Team Tools/DiagnosticsHub/Collector/OpenXLSXConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program/VS2026/Team Tools/DiagnosticsHub/Collector/openxlsx-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program/VS2026/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/OpenXLSXConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program/VS2026/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/openxlsx-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/OpenXLSXConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/openxlsx-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/10/bin/x64/OpenXLSXConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/10/bin/x64/openxlsx-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program/VS2026/MSBuild/Current/Bin/amd64/OpenXLSXConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program/VS2026/MSBuild/Current/Bin/amd64/openxlsx-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/OpenXLSXConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/openxlsx-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program/VS2026/Common7/IDE/OpenXLSXConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program/VS2026/Common7/IDE/openxlsx-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program/VS2026/Common7/Tools/OpenXLSXConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program/VS2026/Common7/Tools/openxlsx-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenXLSXConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/openxlsx-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/OpenXLSXConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/openxlsx-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/OpenXLSXConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/openxlsx-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/OpenXLSXConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/openxlsx-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/OpenXLSXConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/openxlsx-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program/Git/cmd/OpenXLSXConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program/Git/cmd/openxlsx-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/nodejs/OpenXLSXConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/nodejs/openxlsx-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/OpenXLSXConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/openxlsx-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/OpenXLSXConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/openxlsx-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/31482/AppData/Local/Microsoft/WindowsApps/OpenXLSXConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/31482/AppData/Local/Microsoft/WindowsApps/openxlsx-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program/cursor/resources/app/OpenXLSXConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program/cursor/resources/app/openxlsx-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/31482/AppData/Local/GitHubDesktop/OpenXLSXConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/31482/AppData/Local/GitHubDesktop/openxlsx-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/31482/AppData/Roaming/npm/OpenXLSXConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/31482/AppData/Roaming/npm/openxlsx-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/31482/AppData/Local/Python/OpenXLSXConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/31482/AppData/Local/Python/openxlsx-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/msys64/mingw64/OpenXLSXConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/msys64/mingw64/openxlsx-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/OpenXLSXConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/openxlsx-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/OpenXLSXConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/openxlsx-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program/VS2026/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/OpenXLSXConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program/VS2026/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/openxlsx-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program/VS2026/VC/vcpkg/OpenXLSXConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program/VS2026/VC/vcpkg/openxlsx-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/OpenXLSXConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/openxlsx-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/OpenXLSXConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/openxlsx-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found: null
+    search_context:
+      ENV{PATH}:
+        - "D:\\Program\\VS2026\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64"
+        - "D:\\Program\\VS2026\\Common7\\IDE\\VC\\VCPackages"
+        - "D:\\Program\\VS2026\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "D:\\Program\\VS2026\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "D:\\Program\\VS2026\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8.1 Tools\\x64\\"
+        - "D:\\Program\\VS2026\\Common7\\IDE\\CommonExtensions\\Microsoft\\FSharp\\Tools"
+        - "D:\\Program\\VS2026\\Team Tools\\DiagnosticsHub\\Collector"
+        - "D:\\Program\\VS2026\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x64"
+        - "D:\\Program\\VS2026\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "D:\\Program\\VS2026\\Common7\\IDE\\"
+        - "D:\\Program\\VS2026\\Common7\\Tools\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "D:\\Program\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\31482\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Program\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\31482\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\31482\\AppData\\Roaming\\npm"
+        - "C:\\Users\\31482\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\31482\\.dotnet\\tools"
+        - "C:\\msys64\\mingw64\\bin"
+        - "D:\\Program\\VS2026\\Common7\\IDE\\PrivateAssemblies\\runtimes\\win-x64\\native"
+        - "D:\\Program\\VS2026\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "D:\\Program\\VS2026\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "D:\\Program\\VS2026\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "D:\\Program\\VS2026\\VC\\vcpkg"
+      CMAKE_INSTALL_PREFIX: "D:/OtherProject/ExcleTable Reading/GameConfigExporter/out/install/x64-Debug"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/Program/VS2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake"
+        - "D:/OtherProject/ExcleTable Reading/GameConfigExporter/out/install/x64-Debug"
+...

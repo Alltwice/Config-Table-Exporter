@@ -1,0 +1,4 @@
+id,path2,path3
+int,Vector2[],Vector3[]
+ID,Path2,Path3
+1,0|0/1|bad,0|0|0/1|1
